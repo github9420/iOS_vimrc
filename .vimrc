@@ -94,13 +94,11 @@ set backspace=2
 
 map <F2> :NERDTreeToggle<CR>  // 设置F2为开启NERDTree的快捷键
 
-
-"ˋ支持PEP8風格的縮進
 au BufNewFile,BufRead *.py
-\ set tabstop=4
-\ set softtabstop=4
-\ set shiftwidth=4
-\ set textwidth=79
-\ set expandtab
-\ set autoindent
-\ set fileformat=unix
+    \ set tabstop=4 |
+    \ set softtabstop=4 |
+    \ set shiftwidth=4 |
+    \ set textwidth=79 |
+    \ set expandtab |
+    \ set autoindent |
+    \ set fileformat=unix
